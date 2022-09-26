@@ -4,10 +4,12 @@
 Pandas will be used to clean the data and perform an exploratory analysis. Further analysis will be completed using Python.
 
 ## Database Storage
-Postgrel is the database we intend to use, and we will Tableau to display the data and the presentation.
+ For the database section, we will utilize an ERD (Entity Relationship Diagram) in addition to pgAdmin 4 within Postgres SQL for data storage.
 
 ## Machine Learning
-SciKitLearn is the ML library we'll be using to create a classifier. Our training and testing setup is -----. Extra ML verbiage here.
+In the machine learning portion, our training a unsupervised learning model with a K-means clustering algorithm.
+SciKitLearn is the ML library we'll be using to create a classifier. Extra ML verbiage here.
+
 
 ## Dashboard
-In addition to using a Flask template, we will also integrate D3.js for a fully functioning and interactive dashboard. It will be hosted on ___.
+We will use Tableau to display the data and presentation.
