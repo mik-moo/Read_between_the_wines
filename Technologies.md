@@ -8,7 +8,7 @@ Pandas will be used to clean the data and perform an exploratory analysis. Furth
 
 ## Machine Learning
 In the machine learning portion, our training a unsupervised learning model with a K-means clustering algorithm.
-SciKitLearn is the ML library we'll be using to create a classifier. Extra ML verbiage here.
+SciKitLearn is the ML library we'll be using to create a classifier. 
 
 
 ## Dashboard
