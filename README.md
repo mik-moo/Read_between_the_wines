@@ -46,3 +46,19 @@ Datasets used were Red Wine Quality (winequality-red.csv) and White Wine Quality
 - Partial team may meet for trouble-shooting or assistance based on availability, but will update the resolution or continuing issue in the Slack channel to keep everyone on the same page.
 
 - Slack channel will be used for sharing ideas, issues, successes and other information related to the project's progress and deliverables timeline.
+
+## Technologies
+
+## Database Plan
+
+## Machine Learning Plan
+
+## Roles
+
+- Square- Heather
+
+- Circle- Andrew
+
+- Triangle- Mia
+
+- X- Fidelia
