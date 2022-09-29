@@ -1,7 +1,8 @@
  ERD Diagram for Wines
  
- ![image](https://user-images.githubusercontent.com/105396400/192882541-48447016-eb45-4c81-afc0-26cf1cc8ecb7.png)
+![image](https://user-images.githubusercontent.com/105396400/192919208-5aaa2ee4-237c-4b4c-874d-c9f200373ad3.png)
 
 pgAdmin Screenshot
 
-![image](https://user-images.githubusercontent.com/105396400/192882872-2cf1cb80-6402-411c-938d-d502b931fcb9.png)
+![image](https://user-images.githubusercontent.com/105396400/192919311-08093921-d27d-4ea4-a52c-19d12e6b0aa3.png)
+
