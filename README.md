@@ -1,5 +1,5 @@
 # Group_2
-Tableau Link: 
+Tableau Link: https://public.tableau.com/app/profile/fidelia1205/viz/WineQuality_16646390058510/WineQualityPrediction?publish=yes
 
 Read Between the Wines
 
