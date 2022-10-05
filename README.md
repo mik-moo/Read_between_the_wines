@@ -5,18 +5,30 @@ Read Between the Wines
 
 Project Overview
 The project is on Wine Quality Prediction. We are using different types of white and red wines to predict the quality. The red wine and the white wine dataset were combined, and a machine was used to predict quality score of one to ten.
+
 The datasets, Red Wine Quality (winequality-red.csv) and White Wine Quality (winequality-white.csv) are from https://www.kaggle.com/
 The features used for the prediction are listed below
+
 •	fixed acidity
+
 •	volatile acidity
+
 •	citric acid
+
 •	residual sugar
+
 •	chlorides
+
 •	free sulfur dioxide
+
 •	total sulfur dioxide
+
 •	density
+
 •	pH
+
 •	sulphates
+
 •	alcohol
 
 Wine Prediction Dashboard
