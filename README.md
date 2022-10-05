@@ -20,7 +20,7 @@ The features used for the prediction are listed below
 •	alcohol
 
 Wine Prediction Dashboard
-image.png
+![image](https://user-images.githubusercontent.com/105121697/194179702-b9c28a15-df1c-4b00-bacf-ab63227ea396.png)
 
 The total number of wines is Five thousand, three hundred and twenty (5,320) White Wines is 3,961 and Red Wines is 1,359
 ![image](https://user-images.githubusercontent.com/105121697/194178835-f38d3a0d-6679-4a9f-948e-e4b8f8075b2a.png)
@@ -36,16 +36,16 @@ Alcohol Rating
 ![image](https://user-images.githubusercontent.com/105121697/194177376-7c518e0b-b5f1-4f12-8e2e-872b30d63bb7.png)
 
 Wine Types & Features
-image.png
+![image](https://user-images.githubusercontent.com/105121697/194179217-5b191a95-e2b6-40b1-a9f9-c5a20b93342f.png)
 
 Citric Versus Density
-image.png
+![image](https://user-images.githubusercontent.com/105121697/194179334-305c9497-da4e-47c0-b683-1ea1aa847b74.png)
 
 Wine Quality Total Percentage
-image.png
+![image](https://user-images.githubusercontent.com/105121697/194179432-ccb78d8c-5d9d-4687-b5c9-fa6d703cbb99.png)
 
 Sulphates Versus Density
-image.png
+![image](https://user-images.githubusercontent.com/105121697/194179555-5ca569a1-3186-4358-bfe5-88a239014bc9.png)
 
 Wine Heat Map
-image.png
+![image](https://user-images.githubusercontent.com/105121697/194179793-d6ccff33-de4c-4189-b747-f440fb06904f.png)
