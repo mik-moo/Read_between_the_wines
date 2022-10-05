@@ -65,4 +65,6 @@ When we noted the differences between the wine types as related to quality, it w
 
 <figcaption align = "center"><b>Wine Type Prediction Feature Importance</b></figcaption><img src="images/type_corr.png" >
 
-In the next stages of the project, we will test to see if our model works on real world data.
+### Future Analysis 
+
+* In the next stages of the project, we will test to see if our model works on real world data.
