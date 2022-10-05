@@ -23,7 +23,7 @@ Wine Prediction Dashboard
 image.png
 
 The total number of wines is Five thousand, three hundred and twenty (5,320) White Wines is 3,961 and Red Wines is 1,359
-![image](https://user-images.githubusercontent.com/105121697/194176983-362e5cf6-cad1-4785-8a4d-caa260f53ffd.png)
+![image](https://user-images.githubusercontent.com/105121697/194178835-f38d3a0d-6679-4a9f-948e-e4b8f8075b2a.png)
 
 Wine Percentages
 ![image](https://user-images.githubusercontent.com/105121697/194177238-38d1b8a9-d492-4665-a965-a8514862a6ae.png)
