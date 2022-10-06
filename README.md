@@ -1,9 +1,9 @@
 # Group_2
 Tableau Link: https://public.tableau.com/app/profile/fidelia1205/viz/WineQuality_16646390058510/WineQualityPrediction?publish=yes
 
-Read Between the Wines
+## Read Between the Wines
 
-Project Overview
+## Project Overview
 The project is on Wine Quality Prediction. We are using different types of white and red wines to predict the quality. The red wine and the white wine dataset were combined, and a machine was used to predict quality score of one to ten.
 
 The datasets, Red Wine Quality (winequality-red.csv) and White Wine Quality (winequality-white.csv) are from https://www.kaggle.com/
@@ -31,7 +31,7 @@ The features used for the prediction are listed below
 
 •	alcohol
 
-Wine Prediction Dashboard
+## Wine Prediction Dashboard
 ![image](https://user-images.githubusercontent.com/105121697/194179702-b9c28a15-df1c-4b00-bacf-ab63227ea396.png)
 
 The total number of wines is Five thousand, three hundred and twenty (5,320) White Wines is 3,961 and Red Wines is 1,359
@@ -44,10 +44,11 @@ Quality Percentage
 Bad Red Wine - 98.5%, Good Red Wine 1.25%, Bad White Wine - 96.57% and Good White Wine - 3.43%
 ![image](https://user-images.githubusercontent.com/105121697/194177482-9707d185-45ed-4981-b00a-075b95b2f93d.png)
 
-Alcohol Rating
+Alcohol Rating: In this rating, Good Red Wine is 1.11 variance of alcohol, Good Red Wine 1.51 variance of alcohol, Bad White Wine is 1.43 variance of alcohol and Bad Red Wine is 1.13 variance of alcohol.
 ![image](https://user-images.githubusercontent.com/105121697/194177376-7c518e0b-b5f1-4f12-8e2e-872b30d63bb7.png)
 
-Wine Types & Features
+Wine Types & Features: From the diagram, there is a difference between the white and Red wines in Average Fixed Density and Average Residual Sugar but there is not a significant difference for white and red wines in Average Alcohol, Average Density, Average Quality, Average Sulphate, and Average Density. 
+
 ![image](https://user-images.githubusercontent.com/105121697/194179217-5b191a95-e2b6-40b1-a9f9-c5a20b93342f.png)
 
 Citric Versus Density
