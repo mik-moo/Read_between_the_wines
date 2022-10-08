@@ -3,6 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# EDA_&_Drafts
+EDA_&_Drafts/*
+
+
 # C extensions
 *.so
 
