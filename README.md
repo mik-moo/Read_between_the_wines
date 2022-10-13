@@ -47,7 +47,7 @@ Bad Red Wine - 98.5%, Good Red Wine 1.25%, Bad White Wine - 96.57% and Good Whit
 
 ### Alcohol Rating
 In this rating, Good Red Wine is 1.11 variance of alcohol, Good Red Wine 1.51 variance of alcohol, Bad White Wine is 1.43 variance of alcohol and Bad Red Wine is 1.13 variance of alcohol.
-![image](https://user-images.githubusercontent.com/105121697/194177376-7c518e0b-b5f1-4f12-8e2e-872b30d63bb7.png)
+![image](https://user-images.githubusercontent.com/105121697/195724879-f876b256-ed1a-4b3e-8013-f9b7490d1c9b.png)
 
 ### Wine Types & Features
 From the diagram, there is a difference between the white and Red wines in Average Fixed Density and Average Residual Sugar but there is not a significant difference for white and red wines in Average Alcohol, Average Density, Average Quality, Average Sulphate, and Average Density. 
