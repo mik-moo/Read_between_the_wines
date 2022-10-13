@@ -32,11 +32,11 @@ The features used for the prediction are listed below
 •	alcohol
 
 ## Wine Prediction Dashboard
-![image](https://user-images.githubusercontent.com/105121697/194179702-b9c28a15-df1c-4b00-bacf-ab63227ea396.png)
+![image](https://user-images.githubusercontent.com/105121697/195724711-39ba7a45-2f56-4468-8e03-e76a2980bc36.png)
 
 ## Total Wine
 The total number of wines is Five thousand, three hundred and twenty (5,320) White Wines is 3,961 and Red Wines is 1,359
-![image](https://user-images.githubusercontent.com/105121697/194178835-f38d3a0d-6679-4a9f-948e-e4b8f8075b2a.png)
+![image](https://user-images.githubusercontent.com/105121697/195724613-5651d9fb-4633-4123-88bf-2f8c443dbf34.png)
 
 ### Wine Percentages
 ![image](https://user-images.githubusercontent.com/105121697/194177238-38d1b8a9-d492-4665-a965-a8514862a6ae.png)
