@@ -62,5 +62,5 @@ From the diagram, there is a difference between the white and Red wines in Avera
 ### Sulphates Versus Density
 ![image](https://user-images.githubusercontent.com/105121697/194179555-5ca569a1-3186-4358-bfe5-88a239014bc9.png)
 
-### Wine Heat Map
-![image](https://user-images.githubusercontent.com/105121697/194179793-d6ccff33-de4c-4189-b747-f440fb06904f.png)
+### Wine Type Quality
+![image](https://user-images.githubusercontent.com/105121697/195725385-64769790-85dd-4a40-8d99-469961133628.png)
