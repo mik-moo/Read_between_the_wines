@@ -52,8 +52,7 @@ In this rating, Good Red Wine is 1.11 variance of alcohol, Good Red Wine 1.51 va
 ### Wine Types & Features
 From the diagram, there is a difference between the white and Red wines in Average Fixed Density and Average Residual Sugar but there is not a significant difference for white and red wines in Average Alcohol, Average Density, Average Quality, Average Sulphate, and Average Density. 
 
-![image](https://user-images.githubusercontent.com/105121697/194179217-5b191a95-e2b6-40b1-a9f9-c5a20b93342f.png)
-
+![image](https://user-images.githubusercontent.com/105121697/195725152-2d225d4c-6fb7-4528-bcf8-f2ce241f55c1.png)
 ### Citric Versus Density
 ![image](https://user-images.githubusercontent.com/105121697/194179334-305c9497-da4e-47c0-b683-1ea1aa847b74.png)
 
