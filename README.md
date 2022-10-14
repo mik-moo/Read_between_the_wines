@@ -7,29 +7,31 @@ Tableau Link: https://public.tableau.com/app/profile/fidelia1205/viz/WineQuality
 The project is on Wine Quality Prediction. We are using different types of white and red wines to predict the quality. The red wine and the white wine dataset were combined, and a machine was used to predict quality score of one to ten.
 
 The datasets, Red Wine Quality (winequality-red.csv) and White Wine Quality (winequality-white.csv) are from https://www.kaggle.com/
-The features used for the prediction are listed below
+The features used for the prediction are listed below in order of importance
 
-•	fixed acidity
+•	Total sulfur dioxide
 
-•	volatile acidity
+•	Chlorides
 
-•	citric acid
-
-•	residual sugar
-
-•	chlorides
-
-•	free sulfur dioxide
-
-•	total sulfur dioxide
+•	Volatile acidity
 
 •	density
 
-•	pH
+•	Sulphates
 
-•	sulphates
+•	Residual Sugar
 
-•	alcohol
+•	Fixed Acidity
+
+•	Free Sulphur dioxide
+
+•	PH
+
+• Citric Acid
+
+•	Alcohol
+
+•	Quality
 
 ## Wine Prediction Dashboard
 ![image](https://user-images.githubusercontent.com/105121697/195724711-39ba7a45-2f56-4468-8e03-e76a2980bc36.png)
@@ -62,6 +64,11 @@ From the diagram, there is a difference between the white and Red wines in Avera
 ### Sulphates Versus Density
 ![image](https://user-images.githubusercontent.com/105121697/194179555-5ca569a1-3186-4358-bfe5-88a239014bc9.png)
 
-### Wine Type Quality
+### Wine Type & Quality
 ![Wine Type Quality](https://user-images.githubusercontent.com/105121697/195904676-d1cab4e2-dbc8-4f8c-a323-3c7041d93f76.png)
 
+### Wine Type & Total Sulphur dioxide
+![Wine Type Quality](https://user-images.githubusercontent.com/105121697/195904938-9b5bfe4b-a387-47b1-9098-04bf8ae4a403.png)
+
+Wine Type & Chloride
+![Wine Types   Chloride](https://user-images.githubusercontent.com/105121697/195905057-f7a00762-b2f0-45fc-bbe0-7734f29b63c4.png)
