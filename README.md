@@ -67,7 +67,7 @@ From the diagram, there is a difference between the white and Red wines in Avera
 ### Wine Type & Total Sulphur dioxide
 ![Wine Type   Total Sulphur dioxide](https://user-images.githubusercontent.com/105121697/195906383-dcea7d19-cbb1-4ba3-a4cc-7d67b1338842.png)
 
-Wine Type & Chloride
+Wine Type & Chlorides
 ![Wine Types   Chloride](https://user-images.githubusercontent.com/105121697/195905057-f7a00762-b2f0-45fc-bbe0-7734f29b63c4.png)
 
 ### Wine Type & Quality
