@@ -154,7 +154,7 @@ Tableau was used to present our analysis.
   - White Wine: 3,961
   - Red Wine: 1,359
 
-<figcaption align = "center"><b>Total Wine</b></figcaption><img src="Images/Total_Wine.png">
+<figcaption align = "center"><b>Total Wine</b></figcaption><img src="Images/Total_Wine.png" width = 500 height = 500>
 
 <figcaption align = "center"><b>Wine Percentage</b></figcaption><img src="Images/Wine_Percentage.png" >
 
