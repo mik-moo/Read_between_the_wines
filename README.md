@@ -179,7 +179,7 @@ Tableau was used to present our analysis.
 
 - Our diagram consists of four tables (shown below).  The red and white datasets have all columns in common and were joined via union to create a combined dataframe (wine).  The fourth table is real world data to test our model in future analysis. 
 
-<figcaption align = "center"><b>Entity Relationship Diagram</b></figcaption><img src="media/project_erd.png" >
+<figcaption align = "center"><b>Entity Relationship Diagram</b></figcaption><img src="media/project_erd.png" width = 700 >
 
 Violin Plots reflecting our 3 highest features within our model.
 
