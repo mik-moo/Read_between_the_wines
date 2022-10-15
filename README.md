@@ -44,13 +44,13 @@ Red and White datasets were read into dataframes for EDA which included:
 
 Meaningful clustering was not achieved.
 
-<figcaption align = "center"><b>K-Means Wine Clusters</b></figcaption><img src="images/Kmeans_cluster_wines.png" width = 400>
+<figcaption align = "center"><b>K-Means Wine Clusters</b></figcaption><img src="media/Kmeans_cluster_wines.png" width = 400>
 
 We attemped to explore each dataset individually as above, with a similar result.
 
-<figcaption align = "center"><b>K-Means Red Wine Cluster</b></figcaption><img src="images/Kmeans_cluster_red.png" width = 400 >
+<figcaption align = "center"><b>K-Means Red Wine Cluster</b></figcaption><img src="media/Kmeans_cluster_red.png" width = 400 >
 
-<figcaption align = "center"><b>K-Means White Wine Cluster</b></figcaption><img src="images/Kmeans_cluster_white4.png" width = 400 >
+<figcaption align = "center"><b>K-Means White Wine Cluster</b></figcaption><img src="media/Kmeans_cluster_white4.png" width = 400 >
 
 ##### Clustering Outcome
 
@@ -103,11 +103,11 @@ Preprocessing included:
 - Scaled data was fit to a RandomForest Classifier.
 - Predictions were made, a confusion matrix was generated, and classification report run.
 
-<figcaption align = "center"><b>Quality Prediction Confusion Matrix</b></figcaption><img src="images/quality_metrics.png" width = 300>
+<figcaption align = "center"><b>Quality Prediction Confusion Matrix</b></figcaption><img src="media/quality_metrics.png" width = 300>
 
 - Features were ranked by importance for this model.
 
-<figcaption align = "center"><b>Quality Prediction Feature Importance</b></figcaption><img src="images/quality_features.png" width = 300>
+<figcaption align = "center"><b>Quality Prediction Feature Importance</b></figcaption><img src="media/quality_features.png" width = 300>
 
 ### Additional Analysis
 
@@ -120,11 +120,11 @@ When we noted the differences between the wine types as related to quality, it w
   - The target was "type"
   - Conditions were not applied to determine "good" or "bad".
 
-<figcaption align = "center"><b>Wine Type Prediction Confusion Matrix</b></figcaption><img src="images/type_metrics.png" width = 300>
+<figcaption align = "center"><b>Wine Type Prediction Confusion Matrix</b></figcaption><img src="media/type_metrics.png" width = 300>
 
-<figcaption align = "center"><b>Wine Type Prediction Feature Importance</b></figcaption><img src="images/type_features.png"width = 300 >
+<figcaption align = "center"><b>Wine Type Prediction Feature Importance</b></figcaption><img src="media/type_features.png"width = 300 >
 
-<figcaption align = "center"><b>Wine Type Prediction Feature Importance</b></figcaption><img src="images/type_corr.png" width = 700 >
+<figcaption align = "center"><b>Wine Type Prediction Feature Importance</b></figcaption><img src="media/type_corr.png" width = 700 >
 
 ## Discussion
 
@@ -134,7 +134,7 @@ Our original goal for the Quality Model sensitivity was 80%.  Our current model 
 
 The Type Model will be accurate a projected ~99% of the time.  It rates high for sensitivity, precision, and F1-score. With a model rating this high, there was a concern for data leakage skewing the model.  A correlation table was generated and the highest correlation seen was ~69% which did not indicate that data leakeage was present.
 
-<figcaption align = "center"><b>Wine Type Correlation</b></figcaption><img src="images/type_corr_heatmap.png" width = 400>
+<figcaption align = "center"><b>Wine Type Correlation</b></figcaption><img src="media/type_corr_heatmap.png" width = 400>
 
 ## Summary
 
@@ -155,13 +155,14 @@ Python was used for this analysis and incorporated tools including Pandas, Sciki
 
 Tableau was used to present our analysis.
 
-<figcaption align = "center"><b>Wine Type Prediction Dashboard</b></figcaption><img src="Images/Dashboard.png" >
+<figcaption align = "center"><b>Wine Type Prediction Dashboard</b></figcaption><img src="media/Dashboard.png" >
 
 - The total number of wine in the combined dataset is 5,320.
   - White Wine: 3,961
   - Red Wine: 1,359
 
-<figcaption align = "center"><b>Total Wine</b></figcaption><img src="Images/Total_Wine.png" width = 400><figcaption align = "center"><b>Wine Percentage</b></figcaption><img src="Images/Wine_Percentage.png" width = 400>
+<figcaption align = "center"><b>Total Wine</b></figcaption><img src="media/Total_Wine.png" width = 400>
+<figcaption align = "center"><b>Wine Percentage</b></figcaption><img src="media/Wine_Percentage.png" width = 400>
 
 - Quality Percentage:
   - Bad Red Wine - 98.5%
@@ -169,7 +170,7 @@ Tableau was used to present our analysis.
   - Bad White Wine - 96.57%
   - Good White Wine - 3.43%
 
-<figcaption align = "center"><b>Quality Percentage</b></figcaption><img src="Images/Wine_Total_Percentage.png" width = 600>
+<figcaption align = "center"><b>Quality Percentage</b></figcaption><img src="media/Wine_Total_Percentage.png" width = 600>
 
 - Alcohol Variance
   - Good White Wine - 1.11
@@ -177,23 +178,23 @@ Tableau was used to present our analysis.
   - Bad White Wine - 1.43
   - Bad Red Wine - 1.13
 
-<figcaption align = "center"><b>Alcohol Variance</b></figcaption><img src="Images/Alcohol_Rating.png" width = 400 >
+<figcaption align = "center"><b>Alcohol Variance</b></figcaption><img src="media/Alcohol_Rating.png" width = 400 >
 
 ### Wine Types & Features
 
 From the diagrams, there is a difference between wine types in Average Fixed Density and Average Residual Sugar but there is not a significant difference for wine types in Average Alcohol, Average Density, Average Quality, Average Sulphate, and Average Density.
 
-<figcaption align = "center"><b>Wine Type vs Features</b></figcaption><img src="Images/Wine_Type_Features.png" >
+<figcaption align = "center"><b>Wine Type vs Features</b></figcaption><img src="media/Wine_Type_Features.png" >
 
-<figcaption align = "center"><b>Citric Acid vs Density</b></figcaption><img src="Images/CitricAcid_Density.png" >
+<figcaption align = "center"><b>Citric Acid vs Density</b></figcaption><img src="media/CitricAcid_Density.png" >
 
-<figcaption align = "center"><b>Sulphates vs Density</b></figcaption><img src="Images/Sulphate_Density.png" >
+<figcaption align = "center"><b>Sulphates vs Density</b></figcaption><img src="media/Sulphate_Density.png" >
 
-<figcaption align = "center"><b>Type vs Total Sulfur Dioxides</b></figcaption><img src="Images/WineType_TotalSulphur.png" >
+<figcaption align = "center"><b>Type vs Total Sulfur Dioxides</b></figcaption><img src="media/WineType_TotalSulphur.png" >
 
-<figcaption align = "center"><b>Type vs Chlorides</b></figcaption><img src="Images/Type_Chloride.png" >
+<figcaption align = "center"><b>Type vs Chlorides</b></figcaption><img src="media/Type_Chloride.png" >
 
-<figcaption align = "center"><b>Wine Type Quality</b></figcaption><img src="Images/Wine_Type_Quality.png" >
+<figcaption align = "center"><b>Wine Type Quality</b></figcaption><img src="media/Wine_Type_Quality.png" >
 
 ## Database Plan
 
