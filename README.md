@@ -148,15 +148,15 @@ Python was used for this analysis and incorporated tools including Pandas, Sciki
 
 Tableau was used to present our analysis.
 
-<figcaption align = "center"><b>Wine Type Prediction Dashboard</b></figcaption><img src="images/Dashboard.png" >
+<figcaption align = "center"><b>Wine Type Prediction Dashboard</b></figcaption><img src="Images/Dashboard.png" >
 
 - The total number of wine in the combined dataset is 5,320.
   - White Wine: 3,961
   - Red Wine: 1,359
 
-<figcaption align = "center"><b>Total Wine</b></figcaption><img src="images/Total_Wine.png">
+<figcaption align = "center"><b>Total Wine</b></figcaption><img src="Images/Total_Wine.png">
 
-<figcaption align = "center"><b>Wine Percentage</b></figcaption><img src="images/Wine_Percentage.png" >
+<figcaption align = "center"><b>Wine Percentage</b></figcaption><img src="Images/Wine_Percentage.png" >
 
 - Quality Percentage:
   - Bad Red Wine - 98.5%
@@ -164,7 +164,7 @@ Tableau was used to present our analysis.
   - Bad White Wine - 96.57%
   - Good White Wine - 3.43%
 
-<figcaption align = "center"><b>Quality Percentage</b></figcaption><img src="images/Wine_Total_Percentage.png" >
+<figcaption align = "center"><b>Quality Percentage</b></figcaption><img src="Images/Wine_Total_Percentage.png" >
 
 - Alcohol Variance
   - Good White Wine - 1.11
@@ -172,23 +172,23 @@ Tableau was used to present our analysis.
   - Bad White Wine - 1.43
   - Bad Red Wine - 1.13
 
-<figcaption align = "center"><b>Alcohol Variance</b></figcaption><img src="images/Alcohol_Rating.png" >
+<figcaption align = "center"><b>Alcohol Variance</b></figcaption><img src="Images/Alcohol_Rating.png" >
 
 ### Wine Types & Features
 
 From the diagrams, there is a difference between wine types in Average Fixed Density and Average Residual Sugar but there is not a significant difference for wine types in Average Alcohol, Average Density, Average Quality, Average Sulphate, and Average Density.
 
-<figcaption align = "center"><b>Wine Type vs Features</b></figcaption><img src="images/Wine_Type_Features.png" >
+<figcaption align = "center"><b>Wine Type vs Features</b></figcaption><img src="Images/Wine_Type_Features.png" >
 
-<figcaption align = "center"><b>Citric Acid vs Density</b></figcaption><img src="images/CitricAcid_Density.png" >
+<figcaption align = "center"><b>Citric Acid vs Density</b></figcaption><img src="Images/CitricAcid_Density.png" >
 
-<figcaption align = "center"><b>Sulphates vs Density</b></figcaption><img src="images/Sulphate_Density.png" >
+<figcaption align = "center"><b>Sulphates vs Density</b></figcaption><img src="Images/Sulphate_Density.png" >
 
-<figcaption align = "center"><b>Type vs Total Sulfur Dioxides</b></figcaption><img src="images/WineType_TotalSulphur.png" >
+<figcaption align = "center"><b>Type vs Total Sulfur Dioxides</b></figcaption><img src="Images/WineType_TotalSulphur.png" >
 
-<figcaption align = "center"><b>Type vs Chlorides</b></figcaption><img src="images/Type_Chloride.png" >
+<figcaption align = "center"><b>Type vs Chlorides</b></figcaption><img src="Images/Type_Chloride.png" >
 
-<figcaption align = "center"><b>Wine Type Quality</b></figcaption><img src="images/Wine_Type_Quality.png" >
+<figcaption align = "center"><b>Wine Type Quality</b></figcaption><img src="Images/Wine_Type_Quality.png" >
 
 ## Database Plan
 
