@@ -93,6 +93,9 @@ Our group chose to rank the wines as "Good" or "Bad" by applying conditions.
 Preprocessing included:
 
 - The red and white data sets were read in as dataframes and combined using sqlalchemy, dropping duplicates.
+  - The total number of wine in the combined dataset is 5,320.
+    - White Wine: 3,961
+    - Red Wine: 1,359
 - Wines with a rating of greater than or equal to 7 were classified as "Good" (0) and less than 7 were given a "Bad" (1) rating.
 - Features and target (quality) were defined.
 - Data was split into training and testing.
@@ -124,8 +127,6 @@ When we noted the differences between the wine types as related to quality, it w
 
 <figcaption align = "center"><b>Wine Type Prediction Feature Importance</b></figcaption><img src="media/type_features.png"width = 300 >
 
-<figcaption align = "center"><b>Wine Type Prediction Feature Importance</b></figcaption><img src="media/type_corr.png" width = 700 >
-
 ## Discussion
 
 We chose to use supervised learning because our data was labeled and had a smaller amount of variables.  We chose a classification model to label our output as "good" or "bad".  The only statistics calculated in this project are the classification report and include accuracy, precision, sensitivity, and F1. We also evaluated feature correlation during EDA.
@@ -143,26 +144,19 @@ The Type Model will be accurate a projected ~99% of the time.  It rates high for
 - The Quality Model is predicted to be accurate ~85% of the time when classifying wines as "good" or "bad".
 - The Type Model is predicted to be accurate ~99% of the time when classifying red and white wines.
 
-### Datasets
+## Datasets
 
-Datasets used were Red Wine Quality (winequality-red.csv) and White Wine Quality (winequality-white.csv) available from <https://www.kaggle.com/>.  These were compiled into tables using PostgreSQL tools in PGAdmin and utilized a basic Entity Relationship Diagram (ERD).
+Datasets used were Red Wine Quality (winequality-red.csv) and White Wine Quality (winequality-white.csv) available from [Kaggle](https://www.kaggle.com/).  These were compiled into tables using PostgreSQL tools in PGAdmin and utilized a basic Entity Relationship Diagram (ERD).
 
-### Resources & Technologies
+## Resources & Technologies
 
 Python was used for this analysis and incorporated tools including Pandas, Scikit-Learn, Imbalanced-Learn, Tensorflow, Seaborn, and others. See the requirements.txt in this repository for a comprehensive list. PostgreSQL in combination with AWS was used for data storage.
 
-### Dashboard
+## Dashboard
 
 Tableau was used to present our analysis.
 
 <figcaption align = "center"><b>Wine Type Prediction Dashboard</b></figcaption><img src="media/Dashboard.png" >
-
-- The total number of wine in the combined dataset is 5,320.
-  - White Wine: 3,961
-  - Red Wine: 1,359
-
-<figcaption align = "center"><b>Total Wine</b></figcaption><img src="media/Total_Wine.png" width = 400>
-<figcaption align = "center"><b>Wine Percentage</b></figcaption><img src="media/Wine_Percentage.png" width = 400>
 
 - Quality Percentage:
   - Bad Red Wine - 98.5%
@@ -170,41 +164,22 @@ Tableau was used to present our analysis.
   - Bad White Wine - 96.57%
   - Good White Wine - 3.43%
 
-<figcaption align = "center"><b>Quality Percentage</b></figcaption><img src="media/Wine_Total_Percentage.png" width = 600>
-
 - Alcohol Variance
   - Good White Wine - 1.11
   - Good Red Wine - 1.51
   - Bad White Wine - 1.43
   - Bad Red Wine - 1.13
 
-<figcaption align = "center"><b>Alcohol Variance</b></figcaption><img src="media/Alcohol_Rating.png" width = 400 >
+- Wine Types & Features
+  - From the diagrams, there is a difference between wine types in Average Fixed Density and Average Residual Sugar but there is not a significant difference for wine     types in Average Alcohol, Average Density, Average Quality, Average Sulphate, and Average Density.
 
-### Wine Types & Features
+## Database
 
-From the diagrams, there is a difference between wine types in Average Fixed Density and Average Residual Sugar but there is not a significant difference for wine types in Average Alcohol, Average Density, Average Quality, Average Sulphate, and Average Density.
+### Entity Relationship Diagram (ERD) 
 
-<figcaption align = "center"><b>Wine Type vs Features</b></figcaption><img src="media/Wine_Type_Features.png" >
+- Our diagram consists of four tables (shown below).  The red and white datasets have all columns in common and were joined via union to create a combined dataframe (wine).  The fourth table is real world data to test our model in future analysis. 
 
-<figcaption align = "center"><b>Citric Acid vs Density</b></figcaption><img src="media/CitricAcid_Density.png" >
-
-<figcaption align = "center"><b>Sulphates vs Density</b></figcaption><img src="media/Sulphate_Density.png" >
-
-<figcaption align = "center"><b>Type vs Total Sulfur Dioxides</b></figcaption><img src="media/WineType_TotalSulphur.png" >
-
-<figcaption align = "center"><b>Type vs Chlorides</b></figcaption><img src="media/Type_Chloride.png" >
-
-<figcaption align = "center"><b>Wine Type Quality</b></figcaption><img src="media/Wine_Type_Quality.png" >
-
-## Database Plan
-
- ERD Diagram for Wines - Due to our data set coming from one table, the ERD is limited to the columns within that table.
-
-![image](https://user-images.githubusercontent.com/105396400/192919208-5aaa2ee4-237c-4b4c-874d-c9f200373ad3.png)
-
-pgAdmin Screenshot
-
-![image](https://user-images.githubusercontent.com/105396400/192919311-08093921-d27d-4ea4-a52c-19d12e6b0aa3.png)
+<figcaption align = "center"><b>Entity Relationship Diagram</b></figcaption><img src="media/project_erd.png" >
 
 Violin Plots reflecting our 3 highest features within our model.
 
@@ -228,7 +203,7 @@ Other questions we would like to answer:
 
 - Can we expand our type model to predict wine types from the five major categories? 
   - Rose
-  - Desert
+  - Dessert
   - Sparkling
   - Red
   - White
