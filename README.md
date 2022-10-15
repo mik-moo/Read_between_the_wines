@@ -2,7 +2,7 @@
 
 ## Overview
 
-This analysis explored red and white wine datasets to predict quality and type based on physiochemical properties (physical and chemical characteristics).  This could potentially be useful to restauranteurs when choosing new wines for their restaurant based on the label. Our goal was to have a model with at least 80% accuracy.
+This analysis explored red and white wine datasets to predict quality and type based on physicochemical properties (physical and chemical characteristics).  This could potentially be useful to restauranteurs when choosing new wines for their restaurant based on the label. Our goal was to have a model with at least 80% accuracy.
 
 ## Process & Results
 
@@ -233,7 +233,7 @@ Other questions we would like to answer:
   - Red
   - White
 
-- Does ranking the wine as good or bad based on physiochemical properties differ from an opinion based rating?
+- Does ranking the wine as good or bad based on physicochemical properties differ from an opinion based rating?
 
 ## Project Links
 
