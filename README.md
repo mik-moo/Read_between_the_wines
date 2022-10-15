@@ -44,7 +44,13 @@ Red and White datasets were read into dataframes for EDA which included:
 
 Meaningful clustering was not achieved.
 
+<figcaption align = "center"><b>K-Means Wine Clusters</b></figcaption><img src="images/Kmeans_cluster_wines.png" width = 400>
+
 We attemped to explore each dataset individually as above, with a similar result.
+
+<figcaption align = "center"><b>K-Means Red Wine Cluster</b></figcaption><img src="images/Kmeans_cluster_red.png" width = 400 >
+
+<figcaption align = "center"><b>K-Means White Wine Cluster</b></figcaption><img src="images/Kmeans_cluster_white4.png" width = 400 >
 
 ##### Clustering Outcome
 
@@ -129,6 +135,8 @@ Our original goal for the Quality Model sensitivity was 80%.  Our current model 
 
 The Type Model will be accurate a projected ~99% of the time.  It rates high for sensitivity, precision, and F1-score. With a model rating this high, there was a concern for data leakage skewing the model.  A correlation table was generated and the highest correlation seen was ~69% which did not indicate that data leakeage was present.
 
+<figcaption align = "center"><b>Wine Type Correlation</b></figcaption><img src="images/type_corr_heatmap.png" width = 500>
+
 ## Summary
 
 - Clustering wasn't effective when trying to determine the quality rating 0-10.
@@ -154,9 +162,7 @@ Tableau was used to present our analysis.
   - White Wine: 3,961
   - Red Wine: 1,359
 
-<figcaption align = "center"><b>Total Wine</b></figcaption><img src="Images/Total_Wine.png" width = 500 height = 500>
-
-<figcaption align = "center"><b>Wine Percentage</b></figcaption><img src="Images/Wine_Percentage.png" >
+<figcaption align = "center"><b>Total Wine</b></figcaption><img src="Images/Total_Wine.png" width = 400><figcaption align = "center"><b>Wine Percentage</b></figcaption><img src="Images/Wine_Percentage.png" width = 400>
 
 - Quality Percentage:
   - Bad Red Wine - 98.5%
@@ -164,7 +170,7 @@ Tableau was used to present our analysis.
   - Bad White Wine - 96.57%
   - Good White Wine - 3.43%
 
-<figcaption align = "center"><b>Quality Percentage</b></figcaption><img src="Images/Wine_Total_Percentage.png" >
+<figcaption align = "center"><b>Quality Percentage</b></figcaption><img src="Images/Wine_Total_Percentage.png" width = 600>
 
 - Alcohol Variance
   - Good White Wine - 1.11
@@ -172,7 +178,7 @@ Tableau was used to present our analysis.
   - Bad White Wine - 1.43
   - Bad Red Wine - 1.13
 
-<figcaption align = "center"><b>Alcohol Variance</b></figcaption><img src="Images/Alcohol_Rating.png" >
+<figcaption align = "center"><b>Alcohol Variance</b></figcaption><img src="Images/Alcohol_Rating.png" width = 400 >
 
 ### Wine Types & Features
 
@@ -220,16 +226,16 @@ In the next stage of the project, we will test our models against real world dat
 
 ## Project Links
 
-Tableau: <https://public.tableau.com/app/profile/fidelia1205/viz/WineQuality_16646390058510/WineQualityPrediction?publish=yes>
+[Tableau](https://public.tableau.com/app/profile/fidelia1205/viz/WineQuality_16646390058510/WineQualityPrediction?publish=yes)
 
-Google Slides: <>
+[Google Slides] ()
 
 ## Contributors
 
-- Heather Harrah-Lea <https://github.com/mik-moo>
+- [Heather Harrah-Lea] (https://github.com/mik-moo)
 
-- Mia Goodwin <https://github.com/MLGood1>
+- [Mia Goodwin] (https://github.com/MLGood1)
 
-- Fidelia Akparu <https://github.com/Fakparu>
+- [Fidelia Akparu] (https://github.com/Fakparu)
 
-- Andrew Taylor
+- [Andrew Taylor] (https://github.com/aotreaux)
