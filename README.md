@@ -224,6 +224,17 @@ White wines generally run less dense than reds. In addition, the concentration o
 
 In the next stage of the project, we will test our models against real world data.
 
+Other questions we would like to answer:
+
+- Can we expand our type model to predict wine types from the five major categories? 
+  - Rose
+  - Desert
+  - Sparkling
+  - Red
+  - White
+
+- Does ranking the wine as good or bad based on physiochemical properties differ from an opinion based rating?
+
 ## Project Links
 
 [Tableau](https://public.tableau.com/app/profile/fidelia1205/viz/WineQuality_16646390058510/WineQualityPrediction?publish=yes)
