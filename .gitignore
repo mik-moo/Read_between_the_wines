@@ -1,3 +1,11 @@
+# Project draft files
+.ipynb_checkpoints/
+Presentation_Plan.md
+Communication_Protocol.md
+Type_Classifier_Viz.ipynb
+Model.md
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
