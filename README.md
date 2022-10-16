@@ -157,7 +157,21 @@ Python was used for this analysis and incorporated tools including Pandas, Sciki
 
 ## Dashboard
 
-Tableau was used to present our analysis.
+Tableau was used to present our analysis. 
+The dashboard displays the finding on using different types of white and red wines to predict the quality of wine.
+In the dashboard, we have different visualizations. There is a visualization showing the number of red and white wines used for this analysis; white is 3,961, red wine is 1,3569 and the total number of wines is 5,320.
+The quality percentage shows percentages of the wine type that is good or bad, From the visualization, more than 95% of the red and white wine fall under the bad wine. The quality of wine is rated from zero (0) to ten (10), six (6) below classified as bad wine and seven (7) and above as good wine.
+
+The wine types of Features show how some of the features used for the prediction relate to the wine types. Total sulfur dioxide in white is twice as much as that of red wine. The fixed acidity of the red wine is higher than that of the white wine and the residual sugar of the white wine is higher than the residual sugar in red wine. There is no significant difference in the other features such as chlorides, density, PH, citric acid, quality, and alcohol, in red and white wine.
+
+The Wine Total Percentage shows the total percentage of the good and bad wines in the wine types.
+
+The wine and the feature, total sulfur dioxide shows the total sulfur dioxide in good wine and bad wine.
+
+The sulphate versus density shows how to use both features together to relate good and bad in wine types.
+
+Wine type percentage show the percentages of red and white wine for this analysis, as well as the percentages of red, that is good or bad and percentages of white, that is good or bad. It shows the dataset for the white wine is greater than the dataset for red wine and that the percentage of bad wine is significantly higher than the good wine percentage.
+
 
 <figcaption align = "center"><b>Wine Type Prediction Dashboard</b></figcaption><img src="media/Dashboard.png" >
 
