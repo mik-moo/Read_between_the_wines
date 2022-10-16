@@ -164,14 +164,6 @@ The quality percentage shows percentages of the wine type that is good or bad, F
 
 The wine types of Features show how some of the features used for the prediction relate to the wine types. Total sulfur dioxide in white is twice as much as that of red wine. The fixed acidity of the red wine is higher than that of the white wine and the residual sugar of the white wine is higher than the residual sugar in red wine. There is no significant difference in the other features such as chlorides, density, PH, citric acid, quality, and alcohol, in red and white wine.
 
-The Wine Total Percentage shows the total percentage of the good and bad wines in the wine types.
-
-The wine and the feature, total sulfur dioxide shows the total sulfur dioxide in good wine and bad wine.
-
-The sulphate versus density shows how to use both features together to relate good and bad in wine types.
-
-Wine type percentage show the percentages of red and white wine for this analysis, as well as the percentages of red, that is good or bad and percentages of white, that is good or bad. It shows the dataset for the white wine is greater than the dataset for red wine and that the percentage of bad wine is significantly higher than the good wine percentage.
-
 
 <figcaption align = "center"><b>Wine Type Prediction Dashboard</b></figcaption><img src="media/Dashboard.png" >
 
