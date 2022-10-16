@@ -174,7 +174,7 @@ Tableau was used to present our analysis.
   - Bad Red Wine - 1.13
 
 - Wine Types & Features
-  - From the diagrams, there is a difference between wine types in Average Fixed Density and Average Residual Sugar but there is not a significant difference for wine     types in Average Alcohol, Average Density, Average Quality, Average Sulphate, and Average Density.
+- There is a difference between wine types in Average Fixed Density and Average Residual Sugar but there is not a significant difference for wine types in Average Alcohol, Average Density, Average Quality, Average Sulphate, and Average Density.
 
 ## Database
 
