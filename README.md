@@ -23,8 +23,8 @@ Can quality score (0-10) of both red and white wines be predicted using a combin
 - alcohol
 
 ### Exploratory Data Analysis (EDA)
-
-#### K-means
+<details>
+<summary>K-means</summary>
 
 Red and White datasets were read into dataframes for EDA which included:
 
@@ -51,12 +51,14 @@ We attemped to explore each dataset individually as above, with a similar result
 <figcaption align = "center"><b>K-Means Red Wine Cluster</b></figcaption><img src="media/Kmeans_cluster_red.png" width = 400 >
 
 <figcaption align = "center"><b>K-Means White Wine Cluster</b></figcaption><img src="media/Kmeans_cluster_white4.png" width = 400 >
+</details>
 
 ##### Clustering Outcome
 
 Clustering wasn't effective when trying to determine the quality rating 0-10.
 
-#### Classification
+<details>
+<summary>Classification</summary>
 
 Further data exploration was completed using a RandomForestClassifier.  The datasets were examined individually first.
 
@@ -75,6 +77,7 @@ The top 5 overlapping features were noted and the dataframe was reduced to only 
 
 - The same steps were taken as above, but no booster was attempted.
 - The resultant accuracy score was ~53%.
+</details>
 
 ##### Classification Outcome
 
