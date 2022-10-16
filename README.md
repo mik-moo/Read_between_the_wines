@@ -194,8 +194,8 @@ From the diagrams, there is a difference between wine types in Average Fixed Den
 
 <figcaption align = "center"><b>Type vs Chlorides</b></figcaption><img src="media/Type_Chloride.png" >
 
-More than 90% of the red and white wines fall on the rating of 6
 <figcaption align = "center"><b>Wine Type Quality</b></figcaption><img src="media/Wine_Type_Quality.png" >
+Above diagram show that more than 90% of the red and white wines fall on the rating of 6 and below, which indicates bad wine.
 
 ## Database Plan
 
