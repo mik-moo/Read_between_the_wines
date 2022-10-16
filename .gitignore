@@ -1,7 +1,19 @@
+# Project draft files
+.ipynb_checkpoints/
+Presentation_Plan.md
+Communication_Protocol.md
+Model.md
+Technologies.md
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
+
+# EDA_&_Drafts
+#EDA_&_Drafts/*
+
 
 # C extensions
 *.so
