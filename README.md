@@ -190,6 +190,7 @@ The wine types of Features show how some of the features used for the prediction
 
 <figcaption align = "center"><b>Entity Relationship Diagram</b></figcaption><img src="media/project_erd.png" width = 700 >
 
+
 Violin Plots reflecting our 3 highest features within our model.
 
 ![alcohol](https://user-images.githubusercontent.com/105396400/194209174-17dc8314-805d-4498-b3f0-0abc5ec61ee2.png)
@@ -197,6 +198,7 @@ Violin Plots reflecting our 3 highest features within our model.
 We can clearly see that at the alcohol content goes up for both red and white, so to does the quality.
 
 ![chlorides](https://user-images.githubusercontent.com/105396400/194209211-c3f752ea-9ecd-4dbf-a52f-765e426f2351.png)
+
 
 Overall, white wines contain a lower level of chlorides than red wines on the maagnitude of ~.05.
 
