@@ -159,9 +159,8 @@ Python was used for this analysis and incorporated tools including Pandas, Sciki
 Tableau was used to present our analysis. 
 
 The dashboard displays the finding on using different types of white and red wines to predict the quality of wine.
-It shows the total number of wines used for this analysis, five Thousand, three hundred and Twenty (5,320). White wine was 3,961 and red wine was 1,3569.
-
-The quality percentage show percentages of the wine type that is good or bad, From the visualization, more than 95% of the red and white wine fall under the bad wine. The quality of wine is rated from zero (0) to ten (10), below seven (7) was classified as bad wine and equal and greater than seven (7) classified as good wine.
+The total number of wines used for this analysis is 5,320. White is 3,961 and  red wine is 1,3569. 
+The quality percentage shows percentages of the wine type that is good or bad, From the visualization, more than 95% of the red and white wine fall under the bad wine. The quality of wine is rated from zero (0) to ten (10), six (6) below classified as bad wine and seven (7) and above as good wine.
 
 The Wine Types Features show how some of the features used for the prediction relate to the wine types. Total sulfur dioxide in white is twice as much as that of red wine. The fixed acidity of the red wine is higher than that of the white wine and the residual sugar of the white wine is higher than the residual sugar in red wine. There is no significant difference in the other features such as chlorides, density, PH, citric acid, quality, and alcohol, in red and white wine.
 
