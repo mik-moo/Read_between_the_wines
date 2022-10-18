@@ -134,9 +134,9 @@ When we noted the differences between the wine types as related to quality, it w
 
 We chose to use supervised learning because our data was labeled and had a smaller amount of variables.  We chose a classification model to label our output as "good" or "bad".  The only statistics calculated in this project are the classification report and include accuracy, precision, sensitivity, and F1. We also evaluated feature correlation during EDA.
 
-Our original goal for the Quality Model sensitivity was 80%.  Our current model will be accurate a projected ~85% of the time.  It is more sensitive for the detection of "Bad" wines at 95%, but the low score(~40%) may indicate some false negatives in the "Good" category.  The F1-score is supportive of using this model with a higher score of 83%.
+Our original goal for the Quality Model sensitivity was 80%.  Our current model will be accurately projected ~85% of the time.  It is more sensitive for the detection of "Bad" wines at 95%, but the low score(~40%) may indicate some false negatives in the "Good" category.  The F1-score is supportive of using this model with a higher score of 83%.
 
-The Type Model will be accurate a projected ~99% of the time.  It rates high for sensitivity, precision, and F1-score. With a model rating this high, there was a concern for data leakage skewing the model.  A correlation table was generated and the highest correlation seen was ~69% which did not indicate that data leakeage was present.
+The Type Model will be accurately projected ~99% of the time.  It rates high for sensitivity, precision, and F1-score. With a model rating this high, there was a concern for data leakage skewing the model.  A correlation table was generated and the highest correlation seen was ~69% which did not indicate that data leakeage was present.
 
 <figcaption align = "center"><b>Wine Type Correlation</b></figcaption><img src="media/type_corr_heatmap.png" width = 400>
 
@@ -195,7 +195,7 @@ Violin Plots reflecting our 3 highest features within our model.
 
 ![alcohol](https://user-images.githubusercontent.com/105396400/194209174-17dc8314-805d-4498-b3f0-0abc5ec61ee2.png)
 
-We can clearly see that at the alcohol content goes up for both red and white, so to does the quality.
+We can clearly see that at the alcohol content goes up for both red and white, so too does the quality.
 
 ![chlorides](https://user-images.githubusercontent.com/105396400/194209211-c3f752ea-9ecd-4dbf-a52f-765e426f2351.png)
 
@@ -204,7 +204,7 @@ Overall, white wines contain a lower level of chlorides than red wines on the ma
 
 ![density](https://user-images.githubusercontent.com/105396400/194209227-e38b9677-551f-4a5d-9ec3-d26a0d8ce299.png)
 
-White wines generally run less dense than reds. In addition, the concentration of the density of a red wine is more defined to smaller range that white wines.
+White wines generally run less dense than reds. In addition, the concentration of the density of a red wine is more defined to smaller range than white wines.
 
 ### Future Analysis
 
@@ -225,7 +225,7 @@ Other questions we would like to answer:
 
 [Tableau](https://public.tableau.com/app/profile/fidelia1205/viz/WineQuality_16646390058510/WineQualityPrediction?publish=yes)
 
-[Google Slides] ()
+[Google Slides](https://docs.google.com/presentation/d/1l_aqOm0VKkD-InpUv269a5dMCSIgSu_PcFoH5URTsb8/edit?usp=sharing)
 
 ## Contributors
 
